@@ -9,6 +9,7 @@ AIエージェントを、ソフトウェア開発と業務自動化の工程へ
 - AIにすべてを任せず、**人間が重要判断を保持する**開発ワークフロー
 - Research / Coding / Review / Test の役割分担と、必要最小限のコンテキスト共有
 - 承認ゲート、終了条件、Git、CIを組み合わせた品質・安全性の管理
+- 要件・利用シナリオ・受入条件を、バックログ、Issue、PR、CIへつなげるMVP管理
 - 「実装済みの証拠」と「設計・検証中の内容」を分け、誇張しない公開方針
 
 ## 解決したい課題
@@ -53,6 +54,7 @@ flowchart TD
 | 項目 | このケーススタディでの位置付け |
 | --- | --- |
 | 役割分担・承認・終了条件 | 個人開発環境で設計・検証しているワークフロー |
+| 要件整理・MVP設計・受入条件 | 個人開発で実践している管理観点。公開資料では一般化したサンプルとして示す |
 | Gitによる変更履歴・差分確認 | 開発運用の方針として実践 |
 | CI・Pythonユニットテスト | [ProjectControl Portfolio](https://github.com/monaka-77/project-control-portfolio)で公開済みの実装証拠 |
 | LLM API、RAG、MCPサーバーの実装 | このケーススタディでは主張しない。範囲外 |
@@ -65,6 +67,7 @@ flowchart TD
 3. [安全性と承認ゲート](docs/safety-and-approval.md)
 4. [評価と受入基準](docs/evaluation.md)
 5. [公開上の主張境界](docs/claim-boundaries.md)
+6. [要件定義・MVP管理の実践サンプル](docs/requirements-mvp-management.md)
 
 ## 関連ポートフォリオ
 
